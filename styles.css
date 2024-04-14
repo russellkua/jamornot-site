@@ -1,29 +1,19 @@
 /* Styles to make the header slightly transparent */
-.header {
-    padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha value (last parameter) to change transparency */
-    width: 100%;
-    z-index: 9999;
-    position: fixed; /* Fix the header at the top of the viewport */
-  }
-  
-  body {
-    background-color: rgb(0, 28, 38);
-    color: white;
-    font-family: 'Lora', serif; /* Change the font family to Lora */
-    text-align: center;
+body, html {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow-x: hidden; /* Hide horizontal overflow */
+    height: 100%;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%; /* Set the height to fill the entire body */
   }
   
   .container {
     flex-grow: 1; /* Fill remaining space */
     margin-top: 80px; /* Adjust margin to account for fixed header */
-    padding-top: 50px; /* Add padding to the top of the container */
+    padding-top: 0px; /* Add padding to the top of the container */
   }
   
   h1 {
@@ -46,31 +36,33 @@
     margin-bottom: 20px;
   }
   
-  #map {
-    height: calc(100vh - 200px); /* Adjust map height to fit remaining space */
-    width: 100%;
+  .footer {
+    padding: 20px; /* Add padding for better appearance */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    position: fixed; /* Fix the footer at the bottom of the viewport */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center the footer horizontally */
+    transform: translateX(-50%); /* Center the footer horizontally */
+    max-width: 80%; /* Set a maximum width */
+    z-index: 9999; /* Ensure footer appears above other content */
+    border-radius: 10px; /* Add rounded corners for a modal-like appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
   }
   
-  .footer {
-    padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999; /* Ensure footer appears above the map */
-    position: fixed; /* Fix the footer at the bottom of the viewport */
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  .footer h1 {
+    margin-top: 0; /* Remove default margin for the heading */
   }
   
   .footer a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 10px; /* Add margin to separate links */
   }
-  
+
   /* Media query for mobile devices */
   @media only screen and (max-width: 768px) {
     body {
       overflow: hidden; /* Hide overflow on mobile devices */
     }
   }
-  
