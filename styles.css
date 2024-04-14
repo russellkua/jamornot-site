@@ -1,68 +1,27 @@
-/* Styles to make the header slightly transparent */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
   }
   
+  .container {
+    height: calc(100% - 100px); /* Adjust the height of the container as needed */
+  }
+  
   #map {
     width: 100%;
-    height: 100%; /* Set the height to fill the entire body */
-  }
-  
-  .container {
-    flex-grow: 1; /* Fill remaining space */
-    margin-top: 80px; /* Adjust margin to account for fixed header */
-    padding-top: 0px; /* Add padding to the top of the container */
-  }
-  
-  h1 {
-    font-size: 36px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
-    margin-bottom: 20px;
+    height: 100%; /* Set the height to fill the entire container */
   }
   
   .footer {
     padding: 20px; /* Add padding for better appearance */
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
     color: white; /* Text color */
     position: fixed; /* Fix the footer at the bottom of the viewport */
-    bottom: 20px; /* Adjust the distance from the bottom */
-    left: 50%; /* Center the footer horizontally */
-    transform: translateX(-50%); /* Center the footer horizontally */
-    max-width: 80%; /* Set a maximum width */
+    bottom: 0; /* Stick to the bottom */
+    left: 0;
+    width: 100%;
     z-index: 9999; /* Ensure footer appears above other content */
-    border-radius: 10px; /* Add rounded corners for a modal-like appearance */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
-  }
-  
-  .footer h1 {
-    margin-top: 0; /* Remove default margin for the heading */
-  }
-  
-  .footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px; /* Add margin to separate links */
-  }
-
-  /* Media query for mobile devices */
-  @media only screen and (max-width: 768px) {
-    body {
-      overflow: hidden; /* Hide overflow on mobile devices */
-    }
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Add border to separate from map */
+    text-align: center; /* Center-align text */
   }

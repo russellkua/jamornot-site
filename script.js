@@ -13,7 +13,7 @@ var singaporeBounds = L.latLngBounds(
 
 // Create the map with restrictions on zooming and panning
 var map = L.map('map', {
-  minZoom: 9,           // Set the minimum zoom level
+  minZoom: 11,           // Set the minimum zoom level
   maxBounds: singaporeBounds, // Set the boundaries for panning
   maxBoundsViscosity: 1.0 // Keeps the map within the bounds when dragging
 }).setView([1.3521, 103.8198], 12); // Adjust the zoom level to 12
