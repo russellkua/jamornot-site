@@ -16,7 +16,7 @@ var map = L.map('map', {
   minZoom: 11,           // Set the minimum zoom level
   maxBounds: singaporeBounds, // Set the boundaries for panning
   maxBoundsViscosity: 1.0 // Keeps the map within the bounds when dragging
-}).setView([1.3521, 103.8198], 12); // Adjust the zoom level to 12
+}).setView([1.3521, 103.8198], 11); // Adjust the zoom level to 12
 
 // Add tile layer with dark mode
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
