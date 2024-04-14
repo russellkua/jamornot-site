@@ -117,11 +117,19 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   ]
   ;
 
-// Add markers to the map with tooltips
-data.forEach(camera => {
-  L.marker(camera.coordinates).addTo(map).bindPopup(camera.location).bindTooltip(camera.location);
-});
-
+  data.forEach(camera => {
+    const marker = L.marker(camera.coordinates).addTo(map);
+    
+    // Detect mobile devices
+    if (L.Browser.mobile) {
+      // For mobile devices, bind tooltips
+      marker.bindTooltip(camera.location);
+    } else {
+      // For desktop devices, bind popups
+      marker.bindPopup(camera.location);
+    }
+  });
+  
   // Update the copyright year
   var currentYear = new Date().getFullYear();
   var copyrightElement = document.getElementById('copyright');
