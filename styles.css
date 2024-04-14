@@ -24,6 +24,7 @@ body, html {
     z-index: 9999; /* Ensure footer appears above other content */
     border-top: 1px solid rgba(255, 255, 255, 0.1); /* Add border to separate from map */
     text-align: center; /* Center-align text */
+    font-family: 'San Francisco', 'Arial', sans-serif; /* Use San Francisco or fallback to Arial or system sans-serif */
 }
 
 .button {
@@ -32,9 +33,11 @@ body, html {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Telegram font */
+    font-family: 'San Francisco', 'Arial', sans-serif; /* Use San Francisco or fallback to Arial or system sans-serif */
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block; /* Ensure button is displayed as a block element */
+    margin: 0; /* Reset margin */
 }
 
 .button:hover {
