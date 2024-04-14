@@ -14,6 +14,7 @@ body, html {
 }
 
 .footer {
+    font-size: 13px; /* Adjust the font size as needed */
     padding: 20px; /* Add padding for better appearance */
     background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
     color: white; /* Text color */
@@ -33,7 +34,7 @@ body, html {
     color: #ffffff; /* White text */
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'San Francisco', 'Arial', sans-serif; /* Use San Francisco or fallback to Arial or system sans-serif */
     text-decoration: none;
     border-radius: 5px;
