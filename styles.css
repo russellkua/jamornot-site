@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(0, 28, 38);
+    color: white;
+    font-family: 'Euclid Circular A', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.telegram-btn {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    background-color: #0088cc;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.telegram-btn img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #00394d;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 40px;
+    margin-top: -10px;
+}
+
