@@ -1,54 +1,67 @@
-body {
+/* Styles to make the header slightly transparent */
+.header {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha value (last parameter) to change transparency */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    backdrop-filter: blur(10px); /* Adds a blur effect behind the transparent header */
+}
+  
+  body {
     background-color: rgb(0, 28, 38);
     color: white;
-    font-family: 'Euclid Circular A', sans-serif;
+    font-family: 'Lora', serif; /* Change the font family to Lora */
+    text-align: center;
     margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-.telegram-btn {
-    display: block;
-    max-width: 200px;
-    margin: 20px auto;
-    text-align: center;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
     color: white;
-    background-color: #0088cc;
+    padding: 10px 20px;
     border: none;
-    padding: 15px 20px;
     border-radius: 5px;
+    font-size: 16px;
     text-decoration: none;
-}
-
-.telegram-btn img {
-    width: 20px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-footer {
-    background-color: #00394d;
-    padding: 20px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+    margin-bottom: 20px;
+  }
+  
+  #map {
+    height: calc(100vh - 200px); /* Adjust map height to fit remaining space */
     width: 100%;
-}
-
-footer img {
-    width: 40px;
-    margin-top: -10px;
-}
-
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999; /* Ensure footer appears above the map */
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  

@@ -1,0 +1,568 @@
+{
+  "AYE": [
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4701,
+      "Location": "📷 Towards Alexandra Road",
+      "Coordinates": "1.2871, 103.79633"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4702,
+      "Location": "📷 Keppel Viaduct",
+      "Coordinates": "1.27237, 103.8324"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4704,
+      "Location": "📷 Lower Delta Road",
+      "Coordinates": "1.27877, 103.82375"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4705,
+      "Location": "📷 Entrance from Yuan Ching Rd",
+      "Coordinates": "1.32618, 103.73028"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4706,
+      "Location": "📷 Near NUS",
+      "Coordinates": "1.29792, 103.78205"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4707,
+      "Location": "📷 Entrance from Jln Ahmad Ibrahim",
+      "Coordinates": "1.33344648135658, 103.652700847056"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4708,
+      "Location": "📷 Near Dover Drive",
+      "Coordinates": "1.29939, 103.7799"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4709,
+      "Location": "📷 Clementi Ave 6 Entrance",
+      "Coordinates": "1.312019, 103.763002"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4710,
+      "Location": "📷 Towards Pandan Gardens",
+      "Coordinates": "1.32153, 103.75273"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4712,
+      "Location": "📷 After Tuas West Road",
+      "Coordinates": "1.341244001, 103.6439134"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4714,
+      "Location": "📷 Near West Coast Walk",
+      "Coordinates": "1.31023, 103.76438"
+    },
+    {
+      "Expressway": "AYE",
+      "Camera ID": 4716,
+      "Location": "📷 Entrance from Benoi Rd",
+      "Coordinates": "1.32227, 103.67453"
+    }
+  ],
+  "BKE": [
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2703,
+      "Location": "📷 Chantek Flyover",
+      "Coordinates": "1.35047790791, 103.7910335813"
+    },
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2704,
+      "Location": "📷 Woodlands Flyover (Towards Checkpoint)",
+      "Coordinates": "1.429588536, 103.769311"
+    },
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2705,
+      "Location": "📷 Dairy Farm Flyover",
+      "Coordinates": "1.36728572, 103.7794698"
+    },
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2706,
+      "Location": "📷 After KJE Exit",
+      "Coordinates": "1.414142, 103.771168"
+    },
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2707,
+      "Location": "📷 Mandai Rd Entrance",
+      "Coordinates": "1.3983, 103.774247"
+    },
+    {
+      "Expressway": "BKE",
+      "Camera ID": 2708,
+      "Location": "📷 Exit 5 to KJE (Towards Checkpoint)",
+      "Coordinates": "1.3865, 103.7747"
+    }
+  ],
+  "CTE": [
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1701,
+      "Location": "📷 Exit 6 to Bukit Timah Road",
+      "Coordinates": "1.323604823, 103.8587802"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1702,
+      "Location": "📷 Braddell Flyover",
+      "Coordinates": "1.34355015, 103.8601984"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1703,
+      "Location": "📷 St George Road",
+      "Coordinates": "1.32814722195, 103.862203282"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1704,
+      "Location": "📷 Entrance from Chin Swee Road",
+      "Coordinates": "1.28569398887, 103.8375245102"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1705,
+      "Location": "📷 Ang Mo Kio Ave 5 Flyover",
+      "Coordinates": "1.375925022, 103.8587986"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1706,
+      "Location": "📷 St George Road",
+      "Coordinates": "1.38861, 103.85806"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1707,
+      "Location": "📷 Bukit Merah Flyover",
+      "Coordinates": "1.28036584336, 103.8304511465"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1709,
+      "Location": "📷 Exit 6 to Bukit Timah Road",
+      "Coordinates": "1.31384231655, 103.8456030326"
+    },
+    {
+      "Expressway": "CTE",
+      "Camera ID": 1711,
+      "Location": "📷 Ang Mo Kio Ave 1 Flyover",
+      "Coordinates": "1.35296, 103.85719"
+    }
+  ],
+  "ECP": [
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3702,
+      "Location": "📷 Entrance from PIE",
+      "Coordinates": "1.33831, 103.98032"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3704,
+      "Location": "📷 Entrance from MCE",
+      "Coordinates": "1.29585501566, 103.880314666"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3705,
+      "Location": "📷 Exit 2A to Changi Coast Road",
+      "Coordinates": "1.32743, 103.97383"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3793,
+      "Location": "📷 Laguna Flyover",
+      "Coordinates": "1.309330837, 103.9350504"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3795,
+      "Location": "📷 Marine Parade Flyover",
+      "Coordinates": "1.30145145166, 103.91059632"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3796,
+      "Location": "📷 Tanjong Katong Flyover",
+      "Coordinates": "1.297512569, 103.8983019"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3797,
+      "Location": "📷 Tanjong Rhu",
+      "Coordinates": "1.29565733262976, 103.885283049309"
+    },
+    {
+      "Expressway": "ECP",
+      "Camera ID": 3798,
+      "Location": "📷 Benjamin Sheares Bridge",
+      "Coordinates": "1.29158484, 103.8615987"
+    }
+  ],
+  "KJE": [
+    {
+      "Expressway": "KJE",
+      "Camera ID": 8701,
+      "Location": "📷 Choa Chu Kang West Flyover",
+      "Coordinates": "1.38647, 103.74143"
+    },
+    {
+      "Expressway": "KJE",
+      "Camera ID": 8702,
+      "Location": "📷 Exit To BKE",
+      "Coordinates": "1.39059, 103.7717"
+    },
+    {
+      "Expressway": "KJE",
+      "Camera ID": 8704,
+      "Location": "📷 Entrance From Choa Chu Kang Dr",
+      "Coordinates": "1.3899, 103.74843"
+    },
+    {
+      "Expressway": "KJE",
+      "Camera ID": 8706,
+      "Location": "📷 Tengah Flyover",
+      "Coordinates": "1.3664, 103.70899"
+    }
+  ],
+  "KPE": [
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1001,
+      "Location": "📷 KPE/ECP",
+      "Coordinates": "1.29531332, 103.871146"
+    },
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1002,
+      "Location": "📷 Kallang Bahru",
+      "Coordinates": "1.319541067, 103.8785627"
+    },
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1003,
+      "Location": "📷 KPE/PIE",
+      "Coordinates": "1.323957439, 103.8728576"
+    },
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1004,
+      "Location": "📷 Kallang Way Flyover",
+      "Coordinates": "1.319535712, 103.8750668"
+    },
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1005,
+      "Location": "📷 Defu Flyover",
+      "Coordinates": "1.363519886, 103.905394"
+    },
+    {
+      "Expressway": "KPE",
+      "Camera ID": 1006,
+      "Location": "📷 Tampines Flyover",
+      "Coordinates": "1.357098686, 103.902042"
+    }
+  ],
+  "Loyang Ave/Tanah Merah Coast Road": [
+    {
+      "Expressway": "Loyang Ave/Tanah Merah Coast Road",
+      "Camera ID": 1111,
+      "Location": "📷 TPE(PIE), Exit 2 to Loyang Ave",
+      "Coordinates": "1.365434, 103.953997"
+    },
+    {
+      "Expressway": "Loyang Ave/Tanah Merah Coast Road",
+      "Camera ID": 1112,
+      "Location": "📷 TPE(PIE), Tampines Viaduct",
+      "Coordinates": "1.3605, 103.961412"
+    },
+    {
+      "Expressway": "Loyang Ave/Tanah Merah Coast Road",
+      "Camera ID": 1113,
+      "Location": "📷 Tanah Merah Coast Road towards Changi",
+      "Coordinates": "1.317036, 103.988598"
+    }
+  ],
+  "MCE": [
+    {
+      "Expressway": "MCE",
+      "Camera ID": 1501,
+      "Location": "📷 Maxwell Road",
+      "Coordinates": "1.2741439435, 103.8513168025"
+    },
+    {
+      "Expressway": "MCE",
+      "Camera ID": 1502,
+      "Location": "📷 Marina Boulevard/Marina Coastal Drive",
+      "Coordinates": "1.27135090683, 103.8618284406"
+    },
+    {
+      "Expressway": "MCE",
+      "Camera ID": 1503,
+      "Location": "📷 MCE 1.02km",
+      "Coordinates": "1.27066408655, 103.8569779434"
+    },
+    {
+      "Expressway": "MCE",
+      "Camera ID": 1504,
+      "Location": "📷 MCE/ECP",
+      "Coordinates": "1.29409891409, 103.8760561966"
+    },
+    {
+      "Expressway": "MCE",
+      "Camera ID": 1505,
+      "Location": "📷 Marina Boulevard",
+      "Coordinates": "1.2752977149, 103.8663903818"
+    }
+  ],
+  "PIE": [
+    {
+      "Expressway": "PIE",
+      "Camera ID": 5794,
+      "Location": "📷 Bedok North",
+      "Coordinates": "1.3309693, 103.9168616"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 5795,
+      "Location": "📷 Eunos Flyover",
+      "Coordinates": "1.326024822, 103.905625"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 5797,
+      "Location": "📷 Paya Lebar Flyover",
+      "Coordinates": "1.322875288, 103.8910793"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 5798,
+      "Location": "📷 Kallang Way",
+      "Coordinates": "1.32036078126842, 103.877174116489"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 5799,
+      "Location": "📷 Woodsville Flyover",
+      "Coordinates": "1.328171608, 103.8685191"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6701,
+      "Location": "📷 Kim Keat Link",
+      "Coordinates": "1.329334, 103.858222"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6703,
+      "Location": "📷 Thomson Flyover",
+      "Coordinates": "1.328899, 103.84121"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6704,
+      "Location": "📷 Mount Pleasant",
+      "Coordinates": "1.326574036, 103.8268573"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6705,
+      "Location": "📷 Adam Road",
+      "Coordinates": "1.332124, 103.81768"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6706,
+      "Location": "📷 Bukit Timah Expressway",
+      "Coordinates": "1.349428893, 103.7952799"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6708,
+      "Location": "📷 Nanyang Flyover",
+      "Coordinates": "1.345996, 103.69016"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6710,
+      "Location": "📷 Entrance from Jalan Anak Bukit",
+      "Coordinates": "1.344205, 103.78577"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6711,
+      "Location": "📷 Entrance to PIE from ECP Changi",
+      "Coordinates": "1.33771, 103.977827"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6712,
+      "Location": "📷 Exit 27 to Clementi Ave 6",
+      "Coordinates": "1.332691, 103.770278"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6713,
+      "Location": "📷 Entrance from Simei Ave",
+      "Coordinates": "1.340298, 103.945652"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6714,
+      "Location": "📷 Exit 35 to KJE",
+      "Coordinates": "1.361742, 103.703341"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6715,
+      "Location": "📷 Hong Kah Flyover",
+      "Coordinates": "1.356299, 103.716071"
+    },
+    {
+      "Expressway": "PIE",
+      "Camera ID": 6716,
+      "Location": "📷 Tuas Flyover",
+      "Coordinates": "1.322893, 103.6635051"
+    }
+  ],
+  "SLE": [
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9701,
+      "Location": "📷 Lentor Flyover",
+      "Coordinates": "1.39466333, 103.83474601"
+    },
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9702,
+      "Location": "📷 Upp Thomson Flyover",
+      "Coordinates": "1.39474081, 103.81797086"
+    },
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9703,
+      "Location": "📷 SLE(BKE) Exit",
+      "Coordinates": "1.422857, 103.773005"
+    },
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9704,
+      "Location": "📷 Ulu Sembawang Flyover",
+      "Coordinates": "1.42214311, 103.79542062"
+    },
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9705,
+      "Location": "📷 Marsiling Flyover",
+      "Coordinates": "1.42627712, 103.78716637"
+    },
+    {
+      "Expressway": "SLE",
+      "Camera ID": 9706,
+      "Location": "📷 Mandai Flyover",
+      "Coordinates": "1.41270056, 103.80642712"
+    }
+  ],
+  "Sentosa Gateway": [
+    {
+      "Expressway": "Sentosa Gateway",
+      "Camera ID": 4798,
+      "Location": "📷 Sentosa Gateway (Towards Telok Blangah)",
+      "Coordinates": "1.25999999687243, 103.823611110166"
+    },
+    {
+      "Expressway": "Sentosa Gateway",
+      "Camera ID": 4799,
+      "Location": "📷 Sentosa Gateway (Towards Sentosa)",
+      "Coordinates": "1.26027777363278, 103.823888890049"
+    }
+  ],
+  "TPE": [
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7791,
+      "Location": "📷 Upp Changi Flyover Towards PIE",
+      "Coordinates": "1.354245, 103.963782"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7793,
+      "Location": "📷 Tampines Ave 10 Entrance",
+      "Coordinates": "1.37704704, 103.92946983"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7794,
+      "Location": "📷 TPE(KPE) Exit",
+      "Coordinates": "1.37988658, 103.92009174"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7795,
+      "Location": "📷 Entrance To Tampines Flyover",
+      "Coordinates": "1.38432741, 103.91585701"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7796,
+      "Location": "📷 Exit to Punggol Flyover  ",
+      "Coordinates": "1.39559294, 103.90515712"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7797,
+      "Location": "📷 Seletar West Link",
+      "Coordinates": "1.40002575, 103.85702534"
+    },
+    {
+      "Expressway": "TPE",
+      "Camera ID": 7798,
+      "Location": "📷 Seletar Flyover",
+      "Coordinates": "1.39748842, 103.85400467"
+    }
+  ],
+  "Woodlands and Tuas Checkpoints": [
+    {
+      "Expressway": "Woodlands and Tuas Checkpoints",
+      "Camera ID": 2701,
+      "Location": "📷 Woodlands Causeway (Towards Johor)",
+      "Coordinates": "1.447023728, 103.7716543"
+    },
+    {
+      "Expressway": "Woodlands and Tuas Checkpoints",
+      "Camera ID": 2702,
+      "Location": "📷 Woodlands Checkpoint (Towards BKE)",
+      "Coordinates": "1.445554109, 103.7683397"
+    },
+    {
+      "Expressway": "Woodlands and Tuas Checkpoints",
+      "Camera ID": 4703,
+      "Location": "📷 Second Link at Tuas",
+      "Coordinates": "1.348697862, 103.6350413"
+    },
+    {
+      "Expressway": "Woodlands and Tuas Checkpoints",
+      "Camera ID": 4713,
+      "Location": "📷 Tuas Checkpoint",
+      "Coordinates": "1.347645829, 103.6366955"
+    }
+  ]
+}
