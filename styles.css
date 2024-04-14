@@ -25,6 +25,7 @@ body, html {
     border-top: 1px solid rgba(255, 255, 255, 0.1); /* Add border to separate from map */
     text-align: center; /* Center-align text */
     font-family: 'San Francisco', 'Arial', sans-serif; /* Use San Francisco or fallback to Arial or system sans-serif */
+    box-sizing: border-box; /* Include padding and border in the total width */
 }
 
 .button {
