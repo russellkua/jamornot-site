@@ -2,11 +2,9 @@
     background-color: rgba(51, 51, 51, 0); /* Max transparent background color */
     color: #fff; /* White text color */
     padding: 20px; /* Padding around the content */
-    margin-top: 0;
 }
 
 body, html {
-    margin-top: 0;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -18,7 +16,6 @@ body, html {
 }
 
 #map {
-    margin-top: 0;
     width: 100%;
     height: 100%; /* Set the height to fill the entire container */
 }
