@@ -11,12 +11,20 @@ var singaporeBounds = L.latLngBounds(
   L.latLng(1.48, 104.05)  // Northeast corner of Singapore
 );
 
+// Function to detect if the device is mobile
+function isMobileDevice() {
+  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+
+// Set the default zoom level based on the device type
+var defaultZoomLevel = isMobileDevice() ? 11 : 12;
+
 // Create the map with restrictions on zooming and panning
 var map = L.map('map', {
   minZoom: 11,           // Set the minimum zoom level
   maxBounds: singaporeBounds, // Set the boundaries for panning
   maxBoundsViscosity: 1.0 // Keeps the map within the bounds when dragging
-}).setView([1.3521, 103.8198], 11); // Adjust the zoom level to 12
+}).setView([1.3521, 103.8198], defaultZoomLevel);
 
 // Add tile layer with dark mode
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
