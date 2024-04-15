@@ -127,17 +127,16 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 
   data.forEach(camera => {
     const marker = L.marker(camera.coordinates).addTo(map);
-    
-    // Detect mobile devices
-    if (L.Browser.mobile) {
-      // For mobile devices, bind tooltips
+
+    // Bind tooltip only for desktop devices
+    if (!isMobileDevice()) {
       marker.bindTooltip(camera.location);
-    } else {
-      // For desktop devices, bind popups
-      marker.bindPopup(camera.location);
     }
+
+    // Bind popups for both mobile and desktop devices
+    marker.bindPopup(camera.location);
   });
-  
+
   // Update the copyright year
   var currentYear = new Date().getFullYear();
   var copyrightElement = document.getElementById('copyright');
