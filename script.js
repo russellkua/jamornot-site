@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (isMobileDevice()) {
       // For mobile devices, show tooltip and popup on tap
       marker.on('click', function() {
-        marker.unbindTooltip(); // Unbind tooltip if it was previously bound
+        marker.bindTooltip(); // Unbind tooltip if it was previously bound
         marker.bindPopup(camera.location).openPopup();
       });
     } else {
