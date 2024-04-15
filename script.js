@@ -5,31 +5,32 @@ document.addEventListener("DOMContentLoaded", function() {
     console.error('Map container not found.');
     return;
   }
-// Define the geographical boundaries for Singapore
-var singaporeBounds = L.latLngBounds(
-  L.latLng(1.15, 103.55), // Southwest corner of Singapore
-  L.latLng(1.48, 104.05)  // Northeast corner of Singapore
-);
 
-// Function to detect if the device is mobile
-function isMobileDevice() {
-  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-}
+  // Define the geographical boundaries for Singapore
+  var singaporeBounds = L.latLngBounds(
+    L.latLng(1.15, 103.55), // Southwest corner of Singapore
+    L.latLng(1.48, 104.05)  // Northeast corner of Singapore
+  );
 
-// Set the default zoom level based on the device type
-var defaultZoomLevel = isMobileDevice() ? 11 : 12;
+  // Function to detect if the device is mobile
+  function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  }
 
-// Create the map with restrictions on zooming and panning
-var map = L.map('map', {
-  minZoom: 11,           // Set the minimum zoom level
-  maxBounds: singaporeBounds, // Set the boundaries for panning
-  maxBoundsViscosity: 1.0 // Keeps the map within the bounds when dragging
-}).setView([1.3521, 103.8198], defaultZoomLevel);
+  // Set the default zoom level based on the device type
+  var defaultZoomLevel = isMobileDevice() ? 11 : 12;
 
-// Add tile layer with dark mode
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  maxZoom: 15,
-}).addTo(map);
+  // Create the map with restrictions on zooming and panning
+  var map = L.map('map', {
+    minZoom: 11,           // Set the minimum zoom level
+    maxBounds: singaporeBounds, // Set the boundaries for panning
+    maxBoundsViscosity: 1.0 // Keeps the map within the bounds when dragging
+  }).setView([1.3521, 103.8198], defaultZoomLevel);
+
+  // Add tile layer with dark mode
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 15,
+  }).addTo(map);
   
   // Define camera locations with coordinates
   const data = [
@@ -122,20 +123,28 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       {"location": "📷 Ulu Sembawang Flyover", "coordinates": [1.42214311, 103.79542062]},
       {"location": "📷 Marsiling Flyover", "coordinates": [1.42627712, 103.78716637]},
       {"location": "📷 Mandai Flyover", "coordinates": [1.41270056, 103.80642712]}
-  ]
+  ]  
   ;
 
   data.forEach(camera => {
     const marker = L.marker(camera.coordinates).addTo(map);
-
-    // Bind tooltip only for desktop devices
-    if (!isMobileDevice()) {
+  
+    if (isMobileDevice()) {
+      // For mobile devices, show tooltip and popup on tap
+      marker.on('click', function() {
+        marker.unbindTooltip(); // Unbind tooltip if it was previously bound
+        marker.bindTooltip(camera.location).openTooltip();
+        marker.bindPopup(camera.location).openPopup();
+      });
+    } else {
+      // For desktop devices, show tooltip on hover
       marker.bindTooltip(camera.location);
-    }
-
-    // Bind popups for both mobile and desktop devices
-    marker.bindPopup(camera.location);
+      marker.on('mouseover', function() {
+        marker.openTooltip();
+      });
+    } 
   });
+  
 
   // Update the copyright year
   var currentYear = new Date().getFullYear();

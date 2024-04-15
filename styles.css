@@ -1,10 +1,11 @@
 .header {
-    background-color: rgba(51, 51, 51, 0);
-    color: #fff;
-    padding: 20px;
+    background-color: rgba(51, 51, 51, 0); /* Max transparent background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the content */
 }
 
 body, html {
+    margin: 0;
     padding: 0;
     height: 100%;
 }
@@ -12,12 +13,12 @@ body, html {
 h1 {
     font-size: 28px;
     font-weight: bold;
-    margin-block-end: 10px;
-    margin-block-start: 10px;
+    margin-block-end: 11px;
+    margin-block-start: 11px;
 }
 
 h2 {
-    font-size: 18px; 
+    font-size: 19px; 
     font-weight: lighter;
 }
 
@@ -32,7 +33,7 @@ h2 {
 
 .footer {
     font-size: 13px;
-    padding: 6px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     position: fixed;
@@ -48,15 +49,15 @@ h2 {
 
 .button {
     background-color: #0088cc; /* Telegram Blue */
-    color: #ffffff;
+    color: #ffffff; /* White text */
     border: none;
     padding: 10px 20px;
     font-size: 13px;
-    font-family: 'San Francisco', 'Arial', sans-serif;
+    font-family: 'San Francisco', 'Arial', sans-serif; /* Use San Francisco or fallback to Arial or system sans-serif */
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
-    margin: 0;
+    display: inline-block; /* Ensure button is displayed as a block element */
+    margin: 0; /* Reset margin */
 }
 
 .button:hover {
