@@ -133,13 +133,13 @@ document.addEventListener("DOMContentLoaded", function() {
       // For mobile devices, show tooltip and popup on tap
       marker.on('click', function() {
         marker.unbindTooltip(); // Unbind tooltip if it was previously bound
-        marker.bindTooltip(camera.location).openTooltip();
+        marker.bindPopup(camera.location).openPopup();
       });
     } else {
       // For desktop devices, show tooltip on hover
       marker.bindTooltip(camera.location);
       marker.on('mouseover', function() {
-        marker.openTooltip();
+        marker.openPopup();
       });
     } 
   });
