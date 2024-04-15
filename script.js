@@ -17,7 +17,7 @@ function isMobileDevice() {
 }
 
 // Set the default zoom level based on the device type
-var defaultZoomLevel = isMobileDevice() ? 11 : 12;
+var defaultZoomLevel = isMobileDevice() ? 11 : 13;
 
 // Create the map with restrictions on zooming and panning
 var map = L.map('map', {
