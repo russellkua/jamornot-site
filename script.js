@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // For desktop devices, show tooltip on hover
       marker.bindTooltip(camera.location);
       marker.on('mouseover', function() {
-        marker.openPopup();
+        marker.bindPopup();
       });
     } 
   });
