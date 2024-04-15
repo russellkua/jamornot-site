@@ -1,3 +1,9 @@
+.header {
+    background-color: rgba(51, 51, 51, 0); /* Max transparent background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the content */
+}
+
 body, html {
     margin: 0;
     padding: 0;
