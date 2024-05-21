@@ -9,3 +9,7 @@ With a few simple taps, receive live* images from traffic cameras from all aroun
 Images are provided by [data.gov.sg](data.gov.sg) and camera descriptions from [OneMotoring by Land Transport Authority](onemotoring.lta.gov.sg)
 
 > *Images are taken every 5 minutes
+
+Enjoying the bot?
+
+[<img width="120" alt="image" src="https://github.com/russellkua/jamornot-site/assets/34262970/3e7e054b-3189-400c-95e5-c011b95ea173">](https://www.buymeacoffee.com/ugwthivstr)
