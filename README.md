@@ -1,5 +1,7 @@
 # [jamornot.vercel.app](jamornot.vercel.app)
 
+<img width="1573" alt="image" src="https://github.com/russellkua/jamornot-site/assets/34262970/e21a2445-7d59-47b7-aedb-c3a8c27d1ea3">
+
 Official website for Telegram bot [https://t.me/jamornotbot](https://t.me/jamornotbot)
 
 Ever wondered how bad the jam is? Wonder no more.
