@@ -5,7 +5,7 @@ Official website for Telegram bot [@jamornotbot](https://t.me/jamornotbot)
 
 Take the bus or drive often in Singapore? 🇸🇬 Quickly check traffic conditions by receiving live images from all 90 traffic cameras from around the island.
 
-![image](https://github.com/russellkua/jamornot-site/assets/34262970/e55a6f0a-ad23-4956-82e3-4fe10347d10e)
+<img width="300" alt = "image" src="https://github.com/russellkua/jamornot-site/assets/34262970/e55a6f0a-ad23-4956-82e3-4fe10347d10e">
 
 
 Images are taken every 5 minutes; API provided by [data.gov.sg](https://data.gov.sg) and camera descriptions from [OneMotoring by Land Transport Authority](https://onemotoring.lta.gov.sg)
